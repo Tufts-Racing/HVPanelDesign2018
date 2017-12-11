@@ -336,4 +336,20 @@ Wire Wire Line
 	4700 2000 4500 2000
 Wire Wire Line
 	4700 2200 4500 2200
+Text Label 4150 2200 0    60   ~ 0
+IMD_FAULT
+Text Label 4400 1500 0    60   ~ 0
+GND
+Text Label 4050 1600 0    60   ~ 0
+IMD_SUPPLY
+Text Label 4000 1700 0    60   ~ 0
+CHASSIS_GND
+Wire Wire Line
+	4700 1800 4500 1800
+Text Label 3950 1800 0    60   ~ 0
+CHASSIS_GND2
+Text Label 4100 1900 0    60   ~ 0
+D_OUT_HIGH
+Text Label 4100 2000 0    60   ~ 0
+D_OUT_LOW
 $EndSCHEMATC
