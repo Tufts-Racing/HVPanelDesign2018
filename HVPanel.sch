@@ -124,7 +124,7 @@ U 1 1 5A282E68
 P 5200 4800
 F 0 "JP1" H 5200 5000 50  0000 C CNN
 F 1 "Conn_01x03" H 5200 4600 50  0000 C CNN
-F 2 "" H 5200 4800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5200 4800 50  0001 C CNN
 F 3 "" H 5200 4800 50  0001 C CNN
 	1    5200 4800
 	0    1    1    0   
@@ -167,75 +167,7 @@ Text Label 2850 3050 0    60   ~ 0
 GLV_GND
 Text Label 2850 3450 0    60   ~ 0
 CHASSIS_GND
-Wire Wire Line
-	2500 3000 2500 2750
-Wire Wire Line
-	2500 3300 2500 3450
-$Comp
-L Conn_01x01 B-1
-U 1 1 5A2EC6F3
-P 2500 3650
-F 0 "B-1" H 2500 3750 50  0000 C CNN
-F 1 "Conn_01x01" H 2500 3550 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 2500 3650 50  0001 C CNN
-F 3 "" H 2500 3650 50  0001 C CNN
-	1    2500 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L Conn_01x01 B+1
-U 1 1 5A2EC75B
-P 1850 3650
-F 0 "B+1" H 1850 3750 50  0000 C CNN
-F 1 "Conn_01x01" H 1850 3550 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 1850 3650 50  0001 C CNN
-F 3 "" H 1850 3650 50  0001 C CNN
-	1    1850 3650
-	0    1    1    0   
-$EndComp
-Text Label 2500 2750 2    60   ~ 0
-B-
-Text Label 2500 2750 0    60   ~ 0
-HV-
-Text Label 1850 2750 2    60   ~ 0
-B+
-Text Label 1850 2750 0    60   ~ 0
-HV+
-Wire Wire Line
-	2500 3950 2500 4400
-NoConn ~ 2500 3950
-NoConn ~ 2500 2750
 NoConn ~ 2850 3050
-$Comp
-L Conn_01x01 B-2
-U 1 1 5A2ECB68
-P 2500 4600
-F 0 "B-2" H 2500 4700 50  0000 C CNN
-F 1 "Conn_01x01" H 2500 4500 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 2500 4600 50  0001 C CNN
-F 3 "" H 2500 4600 50  0001 C CNN
-	1    2500 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L Conn_01x01 B+2
-U 1 1 5A2ECBA0
-P 1850 4600
-F 0 "B+2" H 1850 4700 50  0000 C CNN
-F 1 "Conn_01x01" H 1850 4500 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 1850 4600 50  0001 C CNN
-F 3 "" H 1850 4600 50  0001 C CNN
-	1    1850 4600
-	0    1    1    0   
-$EndComp
-Text Label 2500 3950 0    60   ~ 0
-HV-2
-Text Label 2500 3950 2    60   ~ 0
-IMD-
-Text Label 1850 3950 0    60   ~ 0
-HV+2
-Text Label 1850 3950 2    60   ~ 0
-IMD+
 $Comp
 L Conn_01x14 U$3
 U 1 1 5A2ED351
@@ -289,7 +221,7 @@ U 1 1 5A2EDCE2
 P 4900 1800
 F 0 "JP2" H 4900 2200 50  0000 C CNN
 F 1 "Conn_01x08" H 4900 1300 50  0000 C CNN
-F 2 "" H 4900 1800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4900 1800 50  0001 C CNN
 F 3 "" H 4900 1800 50  0001 C CNN
 	1    4900 1800
 	1    0    0    -1  
@@ -322,36 +254,6 @@ Text Label 4500 1900 2    60   ~ 0
 D_OUT_HIGH
 Text Label 4500 2000 2    60   ~ 0
 D_OUT_LOW
-Wire Wire Line
-	1850 3450 1850 3300
-Wire Wire Line
-	1850 3000 1850 2750
-NoConn ~ 1850 2750
-Wire Wire Line
-	1850 4400 1850 3950
-NoConn ~ 1850 3950
 Text Notes 4800 2400 0    60   ~ 0
 To_IMD
-$Comp
-L R FUSING1
-U 1 1 5A664BC1
-P 1850 3150
-F 0 "FUSING1" V 1930 3150 50  0000 C CNN
-F 1 "R" V 1850 3150 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-247-2_Vertical" V 1780 3150 50  0001 C CNN
-F 3 "" H 1850 3150 50  0001 C CNN
-	1    1850 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R FUSING2
-U 1 1 5A664C34
-P 2500 3150
-F 0 "FUSING2" V 2580 3150 50  0000 C CNN
-F 1 "R" V 2500 3150 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-247-2_Vertical" V 2430 3150 50  0001 C CNN
-F 3 "" H 2500 3150 50  0001 C CNN
-	1    2500 3150
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
